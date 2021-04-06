@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-04-06T19:01:34.047Z",
+    "end": "2021-04-06T19:01:34.134Z",
+    "duration": 87
+  },
+  "tests": [
+    {
+      "title": "should use the componentDidMount lifecycle method to fetchCats",
+      "fullTitle": "<App/> should use the componentDidMount lifecycle method to fetchCats",
+      "duration": 37,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "fullTitle": "async actions uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: actions.fetchCats is not a function\n    at _callee$ (test/cat-actions-test.js:37:34)\n    at tryCatch (node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)\n    at Generator.invoke [as _invoke] (node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)\n    at Generator.prototype.<computed> [as next] (node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)\n    at step (test/cat-actions-test.js:29:191)\n    at /Users/iancossentino/Development/code/Mod5/redux-thunk-lab/test/cat-actions-test.js:29:437\n    at new Promise (<anonymous>)\n    at Context.<anonymous> (test/cat-actions-test.js:29:99)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "actions.fetchCats is not a function"
+      }
+    },
+    {
+      "title": "should display the cat pics wrapped in <img> tags",
+      "fullTitle": "<CatList/> should display the cat pics wrapped in <img> tags",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have props catPics",
+      "fullTitle": "<CatList/> should have props catPics",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return the initial state",
+      "fullTitle": "cats reducer should return the initial state",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should handle the ADD_CATS action",
+      "fullTitle": "cats reducer should handle the ADD_CATS action",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "fullTitle": "async actions uses redux and thunk to create an action object with type of \"ADD_CATS\" and a payload of cat images",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: actions.fetchCats is not a function\n    at _callee$ (test/cat-actions-test.js:37:34)\n    at tryCatch (node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:65:40)\n    at Generator.invoke [as _invoke] (node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:303:22)\n    at Generator.prototype.<computed> [as next] (node_modules/babel-polyfill/node_modules/regenerator-runtime/runtime.js:117:21)\n    at step (test/cat-actions-test.js:29:191)\n    at /Users/iancossentino/Development/code/Mod5/redux-thunk-lab/test/cat-actions-test.js:29:437\n    at new Promise (<anonymous>)\n    at Context.<anonymous> (test/cat-actions-test.js:29:99)\n    at processImmediate (internal/timers.js:461:21)",
+        "message": "actions.fetchCats is not a function"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "should use the componentDidMount lifecycle method to fetchCats",
+      "fullTitle": "<App/> should use the componentDidMount lifecycle method to fetchCats",
+      "duration": 37,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should display the cat pics wrapped in <img> tags",
+      "fullTitle": "<CatList/> should display the cat pics wrapped in <img> tags",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have props catPics",
+      "fullTitle": "<CatList/> should have props catPics",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should return the initial state",
+      "fullTitle": "cats reducer should return the initial state",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should handle the ADD_CATS action",
+      "fullTitle": "cats reducer should handle the ADD_CATS action",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
